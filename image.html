@@ -4,6 +4,41 @@
         <title>Google Images</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <style>
+            .ll1 {
+              position: absolute;
+              top: 21px;
+              left: 18px;
+            }
+            .rr1 {
+              position: absolute;
+              top: 19px;
+              right: -45px;
+            }
+            .rb1 {
+              position: absolute;
+              top: 18px;
+              right: -45px;
+              background-color: white;
+              border: none;
+              padding: 0px;
+              outline: none;
+            }
+            .rb1::after {
+                border: none;
+                background-color: red;
+            }
+            .rr2 {
+              position: absolute;
+              top: 19px;
+              right: -2px;
+            }
+            .rr3 {
+              position: absolute;
+              top: 12px;
+              right: 35px;
+            }
+        </style>
     </head>
     <body>
 
@@ -14,13 +49,22 @@
 
         <!--Google logo-->
         <div style="padding-top: 120px;">
-            <img src="logo_i.jpg" class="center">
+            <img src="logo_i.png" class="center">
         </div>
 
         <!--Search Bar-->
-        <div align="center">
+        <div align="center" class="d2">
             <form action="https://google.com/images">
-                <input type="text" name="q" id="search">
+                    <input type="text" name="q" id="search">
+                    <img src="search.png" style="width:17px;" class="ll1">
+                    <!--Search-->
+                    <button type="submit" class="rb1">
+                        <img src="search_b.png" style="width:28px;">
+                    </button>
+                    <!--Mic-->
+                    <img src="mic.png" style="width:24px;" class="rr2">
+                    <!--Camera-->
+                    <img src="camera.png" style="width:36px;" class="rr3">
             </form>
         </div>
      

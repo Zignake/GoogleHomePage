@@ -25,10 +25,10 @@ a.urls:hover {
     border: 1px solid #cacaca;
     margin-top: 10px;
     outline: none;
-    padding:0px 10px 0px 20px;
+    padding:0px 10px 0px 47px;
     font-size: 16px;
     width: 100%;
-    height: 100%;
+    height: 39px;
 }
 input#search:hover {
     box-shadow: 0 0 5px 0 #cecece;
@@ -83,6 +83,9 @@ button.button:hover {
     border: 1px solid #b8b8b8;
     height: 30px;
 }
+.f1:focus {
+    outline: 1px solid #0244fa;
+}
 
 .p1 {
     width: 200px;
@@ -95,9 +98,9 @@ button.button:hover {
     width: 70%;
 }
 .d2 {
-    width: 550px;
-    height: 37px;
+    width: 500px;
     margin: 0 auto;
+    position: relative;
 }
 
 #left1 {
@@ -113,3 +116,11 @@ button.button:hover {
     position: absolute;
     right: 15px;
 }
+
+
+.cc1 {
+    position: relative;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+  }

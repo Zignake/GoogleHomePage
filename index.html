@@ -4,6 +4,18 @@
         <title>Google</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <style>
+            .ll1 {
+              position: absolute;
+              top: 21px;
+              left: 18px;
+            }
+            .rr1 {
+              position: absolute;
+              top: 19px;
+              right: -45px;
+            }
+            </style>
     </head>
     <body>
 
@@ -23,14 +35,19 @@
             <form action="https://google.com/search">
 
                     <input type="text" name="q" id="search">
-
+                    <img src="search.png" style="width:17px; z-index: 1;" class="ll1">
+                    <img src="mic.png" style="width:24px;" class="rr1">
+                    
                 <br><br>
 
                 <!--Buttons-->
+                <!--Google Search-->
                 <input type="submit" class="button" value="Google Search">
-                <a href="https://www.google.com/doodles/"><button type="button" class="button">I'm Feeling Lucky</button></a>
+                <!--I'm feeling lucky-->
+                <input type="submit" class="button" value="I'm Feeling Lucky" name="btnI">
             </form>
         </div>
+
         
      
     </body>
